@@ -41,7 +41,6 @@ public class UserPanel {
                 sc.nextLine();
                 String username = sc.nextLine();
                 System.out.println("Enter the age :");
-                sc.nextLine();
                 String age = sc.nextLine();
                 Client.postUser(username, age);
                 break;
